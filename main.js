@@ -15,5 +15,9 @@ const charTwo= {
 }
 
 // charOne.rankUser.call(); to call needed method
-charOne.rankUser.call(charTwo,12);
+// charOne.rankUser.call(charTwo,12);
+// console.log(charTwo.counter);
+
+// The main different with call be in args as arr
+charOne.rankUser.apply(charTwo,[12]);
 console.log(charTwo.counter);
