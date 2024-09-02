@@ -21,3 +21,13 @@ const charTwo= {
 // The main different with call be in args as arr
 charOne.rankUser.apply(charTwo,[12]);
 console.log(charTwo.counter);
+
+
+
+// The bind method [ Same call but not Apply ] also
+// that get copy version from main recived args
+// then return new function with new changes
+
+const result = charOne.rankUser.bind(charTwo,10);
+console.log(result());
+
