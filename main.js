@@ -19,8 +19,8 @@ const charTwo= {
 // console.log(charTwo.counter);
 
 // The main different with call be in args as arr
-charOne.rankUser.apply(charTwo,[12]);
-console.log(charTwo.counter);
+// charOne.rankUser.apply(charTwo,[12]);
+// console.log(charTwo.counter);
 
 
 
