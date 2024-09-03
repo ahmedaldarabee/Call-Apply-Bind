@@ -14,6 +14,9 @@ const charTwo= {
   counter : 0
 }
 
+
+// Firstly , all of these methods based on how to change common attributes
+
 // charOne.rankUser.call(); to call needed method
 charOne.rankUser.call(charTwo,12); //change the common vars
 console.log(charTwo.counter);
